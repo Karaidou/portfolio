@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Το Πορτφόλιο μου</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Το Πορτφόλιο μου</h1>
+        <nav>
+            <a href="#home">Αρχική</a>
+            <a href="#portfolio">Δουλειές</a>
+            <a href="#about">Σχετικά</a>
+            <a href="#contact">Επικοινωνία</a>
+        </nav>
+    </header>
+    <div id="home" class="container">
+        <h2>Καλώς ήρθατε</h2>
+        <p>Αυτή είναι η προσωπική μου ιστοσελίδα πορτφολίου. Εδώ μπορείτε να δείτε τα έργα μου και να μάθετε περισσότερα για μένα.</p>
+    </div>
+    <div id="portfolio" class="container">
+        <h2>Δουλειές</h2>
+        <div class="portfolio-item">
+            <img src="path-to-your-image1.jpg" alt="Έργο 1">
+            <p>Περιγραφή έργου 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="path-to-your-image2.jpg" alt="Έργο 2">
+            <p>Περιγραφή έργου 2.</p>
+        </div>
+        <!-- Περισσότερα έργα -->
+    </div>
+    <div id="about" class="container">
+        <h2>Σχετικά</h2>
+        <p>Μια σύντομη βιογραφία ή περιγραφή για σένα.</p>
+    </div>
+    <div id="contact" class="container">
+        <h2>Επικοινωνία</h2>
+        <p>Στοιχεία επικοινωνίας: email@example.com</p>
+        <form>
+            <label for="name">Όνομα:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Μήνυμα:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Αποστολή">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Το Πορτφόλιο μου</p>
+    </footer>
+</body>
+</html>
